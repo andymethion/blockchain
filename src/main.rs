@@ -1,3 +1,4 @@
+mod keypair;
 mod primitives;
 
 fn main() {
