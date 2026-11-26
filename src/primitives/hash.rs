@@ -1,5 +1,8 @@
 use std::fmt;
 
+use serde::{Deserialize, Serialize};
+
+#[derive(Debug, Default, Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Serialize, Deserialize)]
 pub struct Hash(pub [u8; 32]);
 
 impl Hash {

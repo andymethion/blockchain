@@ -8,4 +8,6 @@ anyhow = "1.0.105"
 blake3 = "1.8.7"
 bs58 = "0.5.1"
 ed25519-dalek = { version = "3.0.0", features = ["rand_core"] }
+postcard = { version = "1.2.0", features = ["use-std"] }
 rand = "0.10.4"
+serde = { version = "1.0.229", features = ["derive"] }
