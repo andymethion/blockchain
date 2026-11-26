@@ -2,8 +2,9 @@ use anyhow::Result;
 use serde::{Deserialize, Serialize};
 
 use crate::{
+    domain::Transaction,
     keypair::Keypair,
-    primitives::{Address, Hash, Signature, Transaction},
+    primitives::{Address, Hash, Signature},
 };
 
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
